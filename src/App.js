@@ -7,16 +7,9 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          THis is the Deployment Test Run
+          THis is the Second Deployment Test Run
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn the Second Deployment test run
-        </a>
+
       </header>
     </div>
   );
