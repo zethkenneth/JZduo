@@ -17,28 +17,28 @@
 }
 
 .services {
-  background-image: url('/images/img-2.jpg');
+  
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  color: #fff;
+  color: rgb(200, 255, 0);
   font-size: 100px;
 }
 
 .products {
-  background-image: url('/images/img-1.jpg');
+  
   background-position: center;
   background-size: fill;
   background-repeat: no-repeat;
-  color: #fff;
+  color: rgb(218, 17, 17);
   font-size: 100px;
 }
 
 .sign-up {
-  background-image: url('/images/img-8.jpg');
+  
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  color: #fff;
+  color: rgb(88, 67, 122);
   font-size: 100px;
 }
