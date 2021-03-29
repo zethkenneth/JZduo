@@ -4,6 +4,8 @@ function Profile(props) {
   return (
     <>
       <li className='cards__item'>
+        <div className='cards__item__link' to={props.path}>
+
           <div className="ImageSection">
             <div className="img">
                 <img src={props.src} alt=""/>
@@ -11,13 +13,12 @@ function Profile(props) {
             <div className="about-info">
                 <h4>I am<span> {props.nickname}</span></h4>
                 <div className="about-details">
-                    <div className="left-section">
+                    <div>
                         <p>Full Name</p>
                         <p>Age</p>
                         <p>Nationality</p>
                         <p>Languages</p>
                         <p>Address</p>
-                    
                     </div>
                     <div className="right-section">
                         <p>{props.FullName}</p>
@@ -29,6 +30,7 @@ function Profile(props) {
                 </div>
                 
             </div>
+        </div>
         </div>
       </li>
     </>
